@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー - Twitch User Log Viewer</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+    h2 {
+      border-left: 5px solid #ccc;
+      padding-left: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>プライバシーポリシー (Privacy Policy)</h1>
+  <p><strong>最終更新日:</strong> 2025年9月7日</p>
+  <p>本プライバシーポリシーは、「Twitch User Log Viewer」（以下、「本拡張機能」といいます）が収集する情報、その利用方法、およびユーザーの権利について説明するものです。</p>
+
+  <h2>1. 収集する情報</h2>
+  <p>本拡張機能は、その機能を提供するために、以下の情報を収集・利用します。</p>
+  <ul>
+    <li><strong>Twitchアカウント情報:</strong>
+      <ul>
+        <li><strong>情報:</strong> TwitchユーザーID、表示名、プロフィール画像URL</li>
+        <li><strong>目的:</strong> ログイン状態の表示、およびどのユーザーのチャットログを表示しているかを明確にするために利用します。</li>
+      </ul>
+    </li>
+    <li><strong>認証情報:</strong>
+      <ul>
+        <li><strong>情報:</strong> Twitch API連携のためのアクセストークンおよびリフレッシュトークン</li>
+        <li><strong>目的:</strong> ユーザーに代わってTwitch APIに安全にアクセスし、チャットログなどの情報を取得するために必要です。これらの情報はユーザーのローカルコンピュータ上の安全な領域（<code>chrome.storage</code>）にのみ保存され、パスワード自体を収集することはありません。</li>
+      </ul>
+    </li>
+    <li><strong>個人的コミュニケーション:</strong>
+       <ul>
+        <li><strong>情報:</strong> ユーザーがTwitch上で投稿した公開チャットメッセージの履歴</li>
+        <li><strong>目的:</strong> 本拡張機能の中核機能である、特定のユーザーのチャットログを検索・表示するために利用します。</li>
+      </ul>
+    </li>
+    <li><strong>支払いに関する情報:</strong>
+       <ul>
+        <li><strong>情報:</strong> プレミアム機能の利用状況（有効か無効か）</li>
+        <li><strong>目的:</strong> プレミアム機能が利用可能かどうかを判断するために利用します。クレジットカード番号や具体的な取引履歴といった決済情報は収集・保存しません。</li>
+      </ul>
+    </li>
+     <li><strong>ユーザーアクティビティ:</strong>
+       <ul>
+        <li><strong>情報:</strong> 本拡張機能内での操作履歴（お気に入り登録、閲覧履歴など）</li>
+        <li><strong>目的:</strong> お気に入り機能や「最後に開いたユーザー」機能を提供し、利便性を向上させるために利用します。これらの情報はユーザーのローカルコンピュータ上にのみ保存されます。</li>
+      </ul>
+    </li>
+    <li><strong>サーバーログ:</strong>
+      <ul>
+        <li><strong>情報:</strong> IPアドレス</li>
+        <li><strong>目的:</strong> 本拡張機能がTwitch APIと通信するために利用する外部サーバー（プロキシサーバー）では、サービスの安定稼働およびセキュリティ維持のため、アクセス元のIPアドレスが一時的に記録される場合があります。</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>2. 収集しない情報</h2>
+  <p>本拡張機能は、以下の情報を意図的に収集することはありません。</p>
+  <ul>
+    <li>氏名、住所、年齢などの個人識別情報</li>
+    <li>健康、医療に関する情報</li>
+    <li>パスワード、セキュリティ保護用の質問、PIN番号</li>
+    <li>Twitch外のウェブサイト閲覧履歴</li>
+    <li>メールやダイレクトメッセージの内容</li>
+  </ul>
+
+  <h2>3. 情報の利用目的</h2>
+  <p>収集した情報は、以下の目的のために利用されます。</p>
+  <ul>
+    <li>Twitchチャットログの検索・表示機能の提供</li>
+    <li>ログイン認証およびセッションの維持</li>
+    <li>お気に入り、閲覧履歴などのパーソナライズ機能の提供</li>
+    <li>サービスのセキュリティ維持および不正利用の防止</li>
+  </ul>
+
+  <h2>4. 情報の保管と第三者提供</h2>
+  <ul>
+    <li>Twitchアカウント情報、認証情報、ユーザーアクティビティに関する情報は、ユーザーのコンピュータ上のChromeストレージに安全に保管されます。</li>
+    <li>法的な要請がある場合を除き、ユーザーの同意なくして収集した情報を第三者に販売、貸与、または開示することはありません。</li>
+    <li>チャットログ取得のため、本拡張機能は外部のプロキシサーバー（<code>https://4u2w8ragph.execute-api.ap-northeast-1.amazonaws.com</code>）を経由してTwitch APIと通信します。この通信は暗号化されています。</li>
+  </ul>
+
+  <h2>5. ユーザーの権利</h2>
+  <p>ユーザーはいつでも本拡張機能からログアウトし、<code>chrome.storage</code>に保存された認証情報を削除することができます。また、本拡張機能をアンインストールすることで、ローカルに保存されたすべての情報が削除されます。</p>
+
+  <h2>6. プライバシーポリシーの変更</h2>
+  <p>本プライバシーポリシーは、法令の変更やサービスのアップデートに伴い、事前の通知なく改定されることがあります。重要な変更があった場合は、適切な方法でお知らせします。</p>
+
+  <h2>7. お問い合わせ</h2>
+  <p>本プライバシーポリシーに関するご質問や懸念事項がございましたら、waribashitera@gmail.comまでご連絡ください。</p>
+
+  </body>
+</html>
